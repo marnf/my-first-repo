@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.last-x{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 113px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 27px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+
+/* header and nevigation styles */
+
+.header {
+    background: fff8f3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+/* banner part */
+
+.banner {
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    height: 116px;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section */
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-discription {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* about section */
+.about-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-info-discription {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* what i do section */
+
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.what-i-do-p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    margin-left: 20px;
+    background: #FFFFFF;
+}
+
+.skills img {
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+
+
+.skill-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding: 30px 33px;
+}
+
+/* edu or experience part */
+
+
+
+
+.qualification {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.education {
+    display: flex;
+   
+    flex-direction: column;
+}
+
+
+
+.education-box {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.education-ft {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.education-second {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.education-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+   
+    padding-bottom: 20px;
+}
+
+/* experience */
+
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-box {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.experience-ft {
+    font-weight: 700;
+    color: #474747;
+    font-size: 30px;
+}
+
+.experience-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.experience-second {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.experience-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+/* footer section */
+
+.footer{
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+.footer-section{
+    display: flex;
+    width: 100%;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-content{
+    
+}
+.footer-form{
+    
+}
+
+.footer-form input,textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 64px;
+    padding: 18px 30px;
+    border: none;
+}
+.footer-form 
